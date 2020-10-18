@@ -125,6 +125,11 @@ write(pfd[1], "hello", 6)
 waitpid(pid, NULL, 0)
 ```
 
+# Todo
+code improvements:
+- improve reading a line: rather than create a static line of 1024, use malloc or getline
+- improve command creation: rather than create a command of 128 max args, use malloc
+
 # References:
 
 - ["Write a Shell in C" by Stephen Brennan](https://brennan.io/2015/01/16/write-a-shell-in-c/) (for the basic shell structure and loop)
