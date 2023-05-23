@@ -10,7 +10,7 @@ Compile with gcc and run as an executable. Here we are using the most common war
 # Documentation
 
 ## What is a shell?
-//todo
+A shell is a program to issue commands to the operating system and to run and control other programs. At its core, a user can type commands one by one and see their results, or combine multiple commands to create a complex pipeline of actions.
 
 ## Basic shell loop
 The basic shell loop is as follows:
